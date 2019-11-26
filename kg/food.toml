@@ -1,0 +1,20 @@
+title = "food"
+
+vegetables = [
+    "broccoli 西蓝花",
+    "lettuce 生菜",
+    "romaine lettuce 油麦菜",
+    "pinach 菠菜",
+    "asparagus 芦笋",
+    " 四季豆",
+    " 荷兰豆",
+    " 白菜",
+    " 菜花",
+    " 卷心菜",
+    " 胡萝卜",
+    " 南瓜",
+    " 芥菜",
+    " 荠菜",
+    " 芥兰",
+    " 芹菜",
+]
