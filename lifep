@@ -3,7 +3,14 @@
 import optparse
 from lplib import choice
 
-ALL_OPT = ("vegetable", "movement", "fruit")
+# 以后要用到
+ALL_OPT = {
+    "vegetable": None,
+    "movement": None,
+    "fruit": None,
+    "drink": None,
+    "game": None
+}
 
 
 def cli_parser():
@@ -11,6 +18,9 @@ def cli_parser():
     parser.add_option("-v", "--vegetable", action="store_true", dest="vegetable", help="蔬菜")
     parser.add_option("-m", "--movement", action="store_true", dest="movement", help="健身动作")
     parser.add_option("-f", "--fruit", action="store_true", dest="fruit", help="水果")
+    parser.add_option("-d", "--drink", action="store_true", dest="drink", help="水果")
+    parser.add_option("-g", "--game", action="store_true", dest="game", help="游戏")
+
     return parser
 
 
