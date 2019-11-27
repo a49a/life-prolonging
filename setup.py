@@ -1,16 +1,4 @@
 from setuptools import setup, find_packages
-from setuptools.command.install_scripts import install_scripts
-import shutil
-
-
-class InstallScripts(install_scripts):
-
-    def run(self):
-        install_scripts.run(self)
-
-        for script in self.get_outputs():
-            dest = script[:-3]
-
 
 setup(
     name="life-prolonging",
@@ -26,5 +14,10 @@ setup(
         'toml',
     ],
     packages=find_packages(where='.', exclude=(), include=('*',)),
-    scripts=["lifep"]
+    entry_points={
+        "console_scripts": [
+            'lpl = lpl:cli'
+        ]
+    },
+    scripts=["lpl.py"],
 )
