@@ -1,7 +1,7 @@
 from random import choice
 import toml
 
-with open('./food.toml', 'r') as f:
+with open('./store.toml', 'r') as f:
     toml_string = f.read()
 
 parsed_toml = toml.loads(toml_string)

@@ -1,4 +1,4 @@
-title = "food"
+title = "store"
 
 vegetables = [
     "broccoli 西蓝花",
@@ -17,4 +17,10 @@ vegetables = [
     " 荠菜",
     " 芥兰",
     " 芹菜",
+]
+
+movements = [
+    "俯卧撑",
+    "静力桥",
+    "举腿",
 ]
