@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+
+import optparse
+from lplib import choice
+
+ALL_OPT = ("vegetable", "movement", "fruit")
+
+
+def cli_parser():
+    parser = optparse.OptionParser()
+    parser.add_option("-v", "--vegetable", action="store_true", dest="vegetable", help="蔬菜")
+    parser.add_option("-m", "--movement", action="store_true", dest="movement", help="健身动作")
+    parser.add_option("-f", "--fruit", action="store_true", dest="fruit", help="水果")
+    return parser
+
+
+if "__main__" == __name__:
+    opts, args = cli_parser().parse_args()
+
+    lp_choice = choice.Choice()
+    for k, v in opts.__dict__.items():
+        if v:
+            r = lp_choice.choose(k + 's')
+            print(r)
+
+
+
+
