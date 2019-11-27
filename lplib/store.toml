@@ -1,6 +1,20 @@
 title = "store"
 
-vegetables = [
+[[meal_time]]
+  start = 6
+  end = 8
+  zh = "早饭"
+[[meal_time]]
+  start = 11
+  end = 13
+  zh = "午饭"
+[[meal_time]]
+  start = 18
+  end = 20
+  zh = "晚饭"
+
+[pool]
+  vegetable = [
     "broccoli 西蓝花",
     "lettuce 生菜",
     "romaine lettuce 油麦菜",
@@ -17,49 +31,47 @@ vegetables = [
     " 荠菜",
     " 芥兰",
     " 芹菜",
-]
+  ]
 
-movements = [
+  movement = [
     "俯卧撑（做不了可以对墙做）",
     "静力桥",
     "举腿",
     "深蹲",
     "小燕飞",
     "提肛"
-]
+  ]
 
-fruits = [
+  fruit = [
     "柚子",
     "圣女果",
     "苹果",
     "橘子",
-]
+    "樱桃",
 
-drinks = [
+  ]
+
+  drink = [
     "无糖拿铁（乳糖不耐受请喝无糖美式）",
     "茶",
     "白开水",
     "牛奶（乳糖不耐受请重新随机）"
-]
+  ]
 
-joints = [
-    "腰",
-    "颈",
-    "肩"
-]
-
-games = [
+  game = [
     "你TM还想玩游戏，身体不好，没有女朋友，又没钱。马斯克火箭都快打到火星了！",
-]
+  ]
 
-hangzhou_outing_dests = [
+  outing_dest.hangzhou = [
     "太子湾公园",
     "湘湖",
     "灵隐寺",
     "龙井村和九溪十八涧",
-    "西溪湿地"
-]
+    "西溪湿地",
+    "浙江大学之江校区",
+    "云栖竹径（Bamboo-lined path at yunqi）",
+    "满陇桂雨（Sweet osmanthus rain at manjuelong village）",
+    "虎跑梦泉（Dreaming of tiger spring at hupao valley）"
+  ]
 
-cosmetics = [
 
-]
