@@ -7,6 +7,12 @@
 
 工程师、科学家、研究员的健康指南。
 
+安装
+```shell script
+pip install life-prolonging
+```
+
+查看帮助
 ```shell script
 lpl -h
 ```

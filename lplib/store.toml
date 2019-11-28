@@ -13,6 +13,19 @@ title = "store"
   end = 20
   zh = "晚饭"
 
+[[cleaning]]
+  en = "air_conditioner"
+  zh = "空调滤网清洁"
+  tip = "代码垃圾回收，空调也需要。要不你哪天就Stop the world了！"
+[[yearly]]
+  en = "toothwash"
+  zh = "洗牙"
+  tip = "没半年到一年花半小时Full GC一下，防止哪天Out of Mermory。"
+[[yearly]]
+  en = "checkup"
+  zh = "体检"
+  tip = "代码过单元测试，人也需要。别忘了每年体检。"
+
 [pool]
   vegetable = [
     "broccoli 西蓝花",
