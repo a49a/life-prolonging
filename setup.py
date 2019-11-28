@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="life-prolonging",
-    version="0.0.1",
+    version="0.0.2",
     keywords=["tool", "health"],
     license="MIT Licence",
     url="https://github.com/deadwind4/life-prolonging",
