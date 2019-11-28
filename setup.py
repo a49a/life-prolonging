@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="life-prolonging",
-    version="0.0.2",
+    version="0.0.4",
     keywords=["tool", "health"],
     license="MIT Licence",
     url="https://github.com/deadwind4/life-prolonging",
@@ -24,4 +24,7 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
     ),
+    package_data={
+        "": ["*.toml"],
+    }
 )
